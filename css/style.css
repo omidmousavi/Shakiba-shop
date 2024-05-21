@@ -1,0 +1,196 @@
+@font-face {
+	 font-family: Vazir;
+	 font-style: normal;
+	 font-weight: normal;
+	 src: url('../Fonts/Vazir.eot');
+	 src: url('../Fonts/Vazir.eot') format('embedded-opentype'), 
+	 url('../Fonts/Vazir.woff2') format('woff2'), 
+	 url('../Fonts/Vazir.woff') format('woff'), 
+	 url('../Fonts/Vazir.ttf') format('truetype');
+}
+@font-face{
+	font-family:'FontAwesome';
+	font-weight:normal;
+	font-style:normal;
+	src:url('../Fonts/fontawesome-webfont.eot');
+	src:url('../Fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+	url('../Fonts/fontawesome-webfont.woff2') format('woff2'),
+	url('../Fonts/fontawesome-webfont.woff') format('woff'),
+	url('../Fonts/fontawesome-webfont.ttf') format('truetype'),
+	url('../Fonts/fontawesome-webfont.svg') format('svg');
+}
+
+@media(max-width:1000px){
+	.site_logo{
+		display:none;
+	}
+	header a{
+		width:100%;
+		display:block;
+		padding: 0!important;	
+	}
+	main{
+		margin-top: 150px!important;
+	}
+}
+
+header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color:#284667;
+	text-align: center;
+	padding: 15px;
+}
+
+header a{
+	padding: 0 40px 0 40px;
+	text-decoration: none;
+	color:white;
+}
+
+.site_logo{
+	position: absolute;
+	right: 0;
+	font-weight:bold;
+}
+
+.login-form, .signup-form{
+	margin: auto;
+	padding: 15px;
+	background-color: powderblue;
+	width:350px;
+	text-align: right;
+	box-shadow: 0 0 5px 0.5px gray;
+	border-radius: 5px;
+}
+
+.signup-form td{
+	margin: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+main{
+	margin-top: 50px;
+	padding: 30px;
+	padding-bottom:50px;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: slategray;
+	padding: 7px;
+	text-align: center;
+}
+
+body{
+	 font-family: Vazir;
+	 margin:0;
+	 direction: rtl;
+}
+
+input[type=text],input[type=password],textarea{
+    padding:7px;
+    outline:none;
+    border:1px solid gray;
+    border-radius:5px;
+    font-family: Vazir;
+}
+input[type=text]:focus,input[type=password]:focus, textarea:focus{
+    background-color:#eee;
+    border:1px solid orange;
+}
+
+input[type=submit]{
+    cursor:pointer;
+}
+input[type=submit],input[type=reset],input[type=button]{
+    border-radius:5px;
+    font-family: Vazir;
+    padding:7px 10px 7px 10px;
+    border:1px solid gray;
+}
+input[type=submit]:hover,input[type=reset]:hover,input[type=button]:hover{
+   box-shadow:0 0 5px 0.5px gray;
+    cursor:pointer;
+}
+input[type=submit]:active,input[type=reset]:active,input[type=button]:active{
+    box-shadow:0 0 3px 0.1px gray;
+}
+
+
+.btn_start_buy{
+	padding: 10px;
+	background-color: royalblue;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.btn_start_buy:active{
+	border-radius:10px;
+}
+
+.products-tbl th{
+	width: 300px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: 450px;
+	margin:10px;
+}
+
+.products-tbl th:hover{
+	box-shadow: 0 0 5px 0.3px orange;
+}
+
+.products-tbl th, .products-tbl{
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.icon:before{
+    font-family:'FontAwesome';
+    padding:7px;
+    font-size:20px;
+    background-color: #eee;
+    border-radius:10px;
+}
+.icon:hover:before{
+    background-color: #ccc;
+}
+
+.instagram:before{
+    content:"\f16d";
+}
+
+.telegram:before{
+    content:"\f2c6";
+}
+
+.divTable{
+	display: table;
+	width: 1024px;
+    font-size: 13pt;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+}
+.divTableRow {
+	display: table-row;
+	border:0;
+}
+.divTableCell{
+	display: table-cell;
+    border: 0.5px solid #ccc;
+	padding: 3px 10px;
+}
+
+
